@@ -1,0 +1,299 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+.container1{
+  font-family: 'JMH SS', sans-serif;  
+}
+
+
+
+.img1{
+  height: 80px;
+  margin-right:300px;
+}
+
+.title{
+  background-color: black;
+  width: 700px;
+  margin-left: 30%;
+  height: 90px;
+}
+.p1{
+  color: #f0f8ff;
+  font-family: 'JMH SS', sans-serif;
+  font-size: 50px;
+}
+.img{
+  position: centeR;
+  border-radius: 50%;
+  padding: 10px;
+  width: 120px;
+  margin-left: 100px;
+  margin-top:300px;
+}
+.img2{
+  margin-top: 80px;
+  margin-left: 15%;
+}
+.p2{
+  color: rgb(58, 52, 52);
+  margin-top: -6%;
+  margin-left: 16%;
+}
+.p3{
+  color: rgb(58, 52, 52);
+  right: 20%;
+  
+  text-align: center;
+  margin-top: 20%;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  
+}
+
+.img3{
+  width: 100%;
+}
+.pub{
+  background-color: black;
+}
+.img4{
+  margin-top:20%;
+  margin-left: 80px;
+}
+#prg{
+  font-size: 40px;
+  font-family: 'JMH SS', sans-serif;
+  color:#f0f8ff;
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-top: -40%;
+ 
+
+  
+}
+.main{
+  height: 100%;
+  background-color: black;
+}
+
+.p5{
+  font-size: 20px;
+  font-family: 'JMH SS', sans-serif;
+  color:#f0f8ff;
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-top: 4%;
+}
+.img5{
+  margin-top:20%;
+  margin-left: 50%;
+  height: 500px;
+}
+.main1{
+  background-color: black;
+  margin-top: 10%;
+}
+.prg2{
+  font-size: 40px;
+  font-family: 'JMH SS', sans-serif;
+  color:aliceblue;
+  margin-right: 50%;
+  margin-left: 10%;
+  margin-top:-40%;
+}
+
+.p6{
+  font-size: 20px;
+  font-family: 'JMH SS', sans-serif;
+  color:aliceblue;
+  margin-right: 60%;
+  margin-left: 10%;
+  margin-top: 4%;
+  text-align: justify;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background{
+  background-image: url(images/maxresdefault.jpg);
+}
+.container22 {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20%;
+
+}
+
+.screen {
+  position: relative;
+  background-color:rgba(77, 69, 69, 0.5);
+  border-radius: 15px;
+  margin-top: 0%;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+  
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #ea1d6f;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #ea1d6f;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ea1d6f;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #b9134f;
+}
+
+
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+.lastsection{
+  background-color: rgb(0, 1, 26);
+}
+
+.last {
+  display: flex;
+}
+
+.last-column {
+  color: white;
+  margin-left: 30%;
+  font-size: 30px;
+  margin-top: 7%;
+}

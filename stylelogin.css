@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+.form{
+  border-radius: 16px;
+  background-color:rgba(19, 16, 16, 0.5);
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 8%;
+  height: 320px;
+  
+}
+.pubs{
+  color: aliceblue;
+  font-size: 50px;
+  font-family: 'JMH SS', sans-serif;
+}
+.infos{
+  color: rgb(37, 112, 152);
+  font-size: 25px;
+  font-family: 'JMH SS', sans-serif;
+  margin-left: 40px;
+}
+.bare{
+  border-radius: 18px;
+  box-shadow: 10px 10px 5px black;
+  border: none;
+  width: 300px;
+  height: 25px;
+  margin-left: 40px;
+}
+.bare1{
+  border-radius: 18px;
+  box-shadow: 10px 10px 5px black;
+  border: none;
+  width: 85px;
+  height: 25px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+body{
+  background-image: url(images/img.jpeg);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  
+}
+.rad{
+  width: 20px;
+  height: 20px;
+}
+.pubs1{
+  color: aliceblue;
+  font-size: 25px;
+  font-family: 'JMH SS', sans-serif;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 150px;
+  
+}
+.btn1{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  margin-left: 40%;
+  
+}
+.a{
+  color: aliceblue;
+  font-family: 'JMH SS', sans-serif;
+  font-size: 45px;
+  text-decoration: none;
+  margin-top: 60px;
+
+
+}
+.login1{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  margin-left: 40%;
+  color: aliceblue;
+  font-family: 'JMH SS', sans-serif;
+  font-size: 45px;
+  text-decoration: none;
+  margin-top: 60px;
+}

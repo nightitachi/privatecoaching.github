@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+.form{
+  padding : 30px  30px;
+  border-radius: 16px;
+  background-color:rgba(19, 16, 16, 0.5);
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 10%;
+  height: 360px;
+  
+}
+.pubs{
+  color: aliceblue;
+  font-size: 50px;
+  font-family: 'JMH SS', sans-serif;
+}
+.infos{
+  color: rgb(37, 112, 152);
+  font-size: 25px;
+  font-family: 'JMH SS', sans-serif;
+  margin-left: 40px;
+}
+.bare{
+  border-radius: 18px;
+  box-shadow: 10px 10px 5px black;
+  border: none;
+  width: 300px;
+  height: 25px;
+  margin-left: 40px;
+}
+.bare1{
+  border-radius: 18px;
+  box-shadow: 10px 10px 5px black;
+  border: none;
+  width: 85px;
+  height: 25px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+body{
+  background-image: url(images/onearmpush.jpg);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  
+}
+.rad{
+  width: 20px;
+  height: 20px;
+}
+#register{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  margin-left: 30%;
+  margin-top: 40px;
+  color: aliceblue;
+  font-size: 50px;
+}

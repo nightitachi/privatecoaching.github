@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  background-color: black;
+}
+
+.title {
+  color: orange;
+  size: 60px;
+}
+.p1{
+  color: black;
+}

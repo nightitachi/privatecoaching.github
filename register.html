@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleregister.css">
+  <title>Register</title>
+</head>
+<body>
+  <form action="register.php" method="post" name="register" class="form">
+    
+    <label  class="infos">email</label>
+    <input type="email" name="username" class="bare" required><br><br>
+    <label  class="infos">password</label>
+    <input type="password" name="password" class="bare" required><br><br>
+    <label  class="infos">your birth date </label><br>
+    <select name="month" class="bare1" required>
+      
+      <option value="January">January</option>
+      <option value="Frbruary">Frbruary</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="Jully">Jully</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="october">october</option>
+      <option value="november">november</option>
+      <option value="December">December</option>
+    </select>
+    <select name="day" id="daySelect" class="bare1" required value="1">
+    </select>
+    
+    
+    <select name="year" id="yearSelect" class="bare1" required value="2010">
+
+    </select>
+   
+    <br><br>
+    <label  class="infos">Male</label>
+<input type="radio" name="gender"  class="rad" required>
+
+<label class="infos">Female</label>
+<input type="radio" name="gender"  class="rad" required>
+
+<button type="submit" name="register" id="register">Register!</button>
+
+  </form>
+  <script>
+    var select = document.getElementById("daySelect");
+  
+    for (var i = 1; i <= 31; i++) {
+      var option = document.createElement("option");
+      option.value = i;
+      option.text = i;
+      select.appendChild(option);
+    }
+  </script>
+   <script>
+    var select1 = document.getElementById("yearSelect"); // Use a different variable name, e.g., select1
+    for (var i = 1980; i <= 2012; i++) {
+      var option1 = document.createElement("option"); // Use a different variable name, e.g., option1
+      option1.value = i;
+      option1.text = i;
+      select1.appendChild(option1);
+    }
+  </script>
+</body>
+</html>
